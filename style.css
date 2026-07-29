@@ -271,28 +271,82 @@ button {
 /* STEPS */
 
 #steps {
+  position: relative;
+  width:100%
+}
+
+.row{
+  width:100%;
+  max-width:1200px;
+  margin: 0 auto;
+}
+
+.images{
+  width:50%;
+}
+
+.section-wrapper{
+  width:50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.steps-title{
+  font-size:48px;
+}
+
+.full-step{
+  display:flex;
+}
+
+.number{
+  display: flex;
+  font-size: 28px;
+  color: lightgrey;
+  font-style:bold;
+}
+
+.steps{
+  display:flex;
+  flex-direction: column;
+}
+
+.steps__subtitle{
+  font-size: 18px;
+}
+
+.steps__para{
+  text-align:left;
+}
+
+
+/* PRICING */
+
+#pricing{
   display: flex;
   align-items: center;
   max-width: 1200px;
   margin: auto 0;
 }
 
-.row {
-  width: 100%;
-  max-width: 1200px;
+.row{
+  width:100%;
+  max-width:1200px;
   margin: 0 auto;
 }
 
-.label {
-  width: 50%;
+.plans{
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.plan{
+  width:calc(100%/3);
   display: flex;
   flex-direction: column;
 }
 
-.images {
-  width: 50%;
-}
-
-ol {
-  list-style-type:circle;
+.li{
+  display: flex;
+  
 }
