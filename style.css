@@ -34,6 +34,7 @@ img {
 .logo {
   width: 160px;
   border-radius: 20px;
+  padding: 0;
 }
 
 ul {
@@ -55,7 +56,6 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 7-px;
   padding: 0 20px;
   background-color: #fff;
 }
