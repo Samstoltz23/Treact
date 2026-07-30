@@ -236,7 +236,7 @@ p {
   align-items: center;
   justify-content: center;
   border-radius: 50px;
-  font-size: 32px;
+  font-size: px;
   margin-bottom: 24px;
 }
 
@@ -272,81 +272,79 @@ button {
 
 #steps {
   position: relative;
-  width:100%
+  width: 100%;
 }
 
-.row{
-  width:100%;
-  max-width:1200px;
+.row {
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
-.images{
-  width:50%;
+.images {
+  width: 50%;
 }
 
-.section-wrapper{
-  width:50%;
+.section-wrapper {
+  width: 50%;
   display: flex;
   flex-direction: column;
 }
 
-.steps-title{
-  font-size:48px;
+.steps-title {
+  font-size: 48px;
 }
 
-.full-step{
-  display:flex;
+.full-step {
+  display: flex;
 }
 
-.number{
+.number {
   display: flex;
   font-size: 28px;
   color: lightgrey;
-  font-style:bold;
+  font-style: bold;
 }
 
-.steps{
-  display:flex;
+.steps {
+  display: flex;
   flex-direction: column;
 }
 
-.steps__subtitle{
+.steps__subtitle {
   font-size: 18px;
 }
 
-.steps__para{
-  text-align:left;
+.steps__para {
+  text-align: left;
 }
-
 
 /* PRICING */
 
-#pricing{
+#pricing {
   display: flex;
   align-items: center;
   max-width: 1200px;
   margin: auto 0;
 }
 
-.row{
-  width:100%;
-  max-width:1200px;
+.row {
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
-.plans{
+.plans {
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
 }
 
-.plan{
-  width:calc(100%/3);
+.plan {
+  width: calc(100% / 3);
   display: flex;
   flex-direction: column;
 }
 
-.li{
+.li {
   display: flex;
-  
 }
