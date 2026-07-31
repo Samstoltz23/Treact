@@ -10,6 +10,7 @@
 
 p {
   line-height: 1.5;
+  color:rgb(113 128 150);
 }
 
 a {
@@ -31,10 +32,27 @@ img {
   color: #6600ff;
 }
 
+.label{
+  color: #6600ff;
+}
+
 .logo {
-  width: 160px;
-  border-radius: 20px;
+  width: 50px;
+  height:auto;
+  margin-right: 10px;
+  border-radius: 2px;
   padding: 0;
+}
+
+.logo-container{
+  display: flex;
+  align-items: center;
+}
+
+.logo-text{
+  font-size:24px;
+  font-weight:bold;
+  color: black;
 }
 
 ul {
@@ -63,8 +81,6 @@ li {
   margin-left: 16px;
   text-decoration: none;
   font-size: 18px;
-  color: #6600ff;
-  font-weight: bold;
   padding: 8px;
 }
 
@@ -226,7 +242,7 @@ p {
 }
 
 .service__img {
-  border: 2px solid #6600ff;
+  border: 2px solid lightgrey;
   color: #6600ff;
   width: 50px;
   height: 50px;
@@ -234,7 +250,6 @@ p {
   align-items: center;
   justify-content: center;
   border-radius: 50px;
-  font-size: 36px;
   margin-bottom: 24px;
 }
 
@@ -248,7 +263,7 @@ button {
   padding: 8px;
   background-color: #6600ff;
   color: white;
-  border-radius: 18px;
+  border-radius: 8px;
   border: none;
 }
 
@@ -316,6 +331,45 @@ button {
   text-align: left;
 }
 
+
+
+/* VALUES */
+
+.feature {
+  display: flex;
+}
+
+.img1{
+  background-color: rgb(154 230 180);
+  color:rgb(39 103 73);
+  border-radius:50%;
+  padding: 0.5rem
+}
+
+.img2{
+  background-color: rgb(254 178 178);
+  color: rgb(155 44 44);
+  border-radius:50%;
+  padding: 0.5rem
+}
+
+.feature__title{
+  margin-left:0.75rem;
+  font-size:1.25rem;
+  font-weight:700;
+}
+
+.feature__description{
+  margin-top:1rem;
+  text-align: center;
+  line-height:1.625;
+  color:rgb(113 128 150)
+}
+
+
+
+
+
 /* PRICING */
 
 .row {
@@ -337,4 +391,12 @@ button {
 
 .li {
   display: flex;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #6600ff;
+  color: white;
+  border-radius: 8px;
+  border: none;
 }
