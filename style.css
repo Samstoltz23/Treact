@@ -11,6 +11,12 @@
 p {
   line-height: 1.5;
   color: rgb(113 128 150);
+  font-size:1.125rem;
+  padding:12px;
+}
+
+.section__title{
+  font-size:3rem;
 }
 
 a {
@@ -63,11 +69,17 @@ ul {
 li {
   list-style-type: none;
 }
+
 .row {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
 }
+
+.nav{
+width:100%;
+}
+
 .nav__container {
   width: 100%;
   max-width: 1200px;
@@ -78,6 +90,7 @@ li {
   padding: 0 20px;
   background-color: #fff;
 }
+
 .nav__link {
   margin-left: 16px;
   text-decoration: none;
@@ -109,6 +122,11 @@ li {
 .section__title {
   font-size: 48px;
 }
+
+
+
+
+
 
 /*  LANDING. */
 
@@ -213,17 +231,15 @@ h2 {
 .service {
   display: flex;
   width:calc(100%/3);
-  align-items: center;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: flex-start;
+  gap:16px;
+  padding:16px;
 }
 
 .service__description {
   display: flex;
   flex-direction: column;
-}
-
-p {
-  padding: 12px;
 }
 
 .service__para {
@@ -233,6 +249,7 @@ p {
 .imageContainer{
   border: 1px solid lightgray;
   border-radius:50%;
+  flex-shrink:0;
 }
 
 .service__subtitle {
@@ -248,15 +265,45 @@ button {
   border: none;
 }
 
+
+
+
+
+
 /* QUALITY WORK */
 
-#quality-work .images {
-  width: 50%;
+.image__container{
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+  border-top-width: 1px;
+  width:60%;
 }
 
-#quality-work .row {
-  display: flex;
+.row{ 
+  display:flex;
 }
+
+.heading__wrapper{
+  margin-right:4rem;
+  padding-top:2rem;
+  padding-bottom:2rem;
+}
+
+.title-q{
+  text-align:left;
+}
+
+.section__title-q{
+  font-size:3rem;
+  text-align:left;
+}
+
+
+
+
+
 
 /* STEPS */
 
@@ -314,6 +361,11 @@ button {
   flex-direction: column;
 }
 
+
+
+
+
+
 /* VALUES */
 
 .feature {
@@ -351,6 +403,11 @@ feature__wrapper{
   display: flex;
 
 }
+
+
+
+
+
 
 /* PRICING */
 
