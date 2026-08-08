@@ -6,7 +6,7 @@
   box-sizing: border-box;
   font-family: "Inter", system-ui;
   color: #243e63;
-  max-width: 1200px;
+
 }
 
 a {
@@ -70,6 +70,10 @@ h6 {
 }
 
 .button {
+}
+
+section{
+  padding:0px 32px;
 }
 
 .section__tag {
@@ -352,9 +356,149 @@ header .row {
   width: 100%;
 }
 
+
+
+
+
+
 /* STEPS */
 
+#steps .row{ 
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.steps__img--wrapper{
+  width:50%;
+}
+
+.steps__img{
+  z-index:2;
+}
+
+.steps__description{
+  padding: 32px 0px 32px 64px;
+}
+
+.step{
+  display:flex;
+  align-items: flex-start;
+  margin-top:32px;
+}
+
+.step__number{
+  color:rgb(203, 213, 224);
+  font-size:36px;
+  font-weight:600;
+  line-height:1;
+}
+
+.step__description{
+  display:flex;
+  flex-direction: column;
+  margin-left:24px;
+  max-width:320px;
+}
+
+.step__title{
+  font-weight:600;
+  font-size:20px;
+  color:rgb(36, 62, 99);
+  line-height:1;
+}
+
+.step__para{
+  font-size: 14px;
+  color:rgb(113,128,150);
+  margin-top:12px;
+  font-weight:500;
+  line-height:2;
+}
+
+
+
+
+
+
+
 /* VALUES */
+
+#values{
+  display:flex;
+  justify-content: space-between;
+}
+#values .row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.values__description, .values__img{
+  width:50%;
+}
+
+.values__list{
+  margin-left:0px;
+  margin-right:0px;
+  display: flex;
+  max-width: none;
+  flex-direction: row;
+}
+
+.value:nth-of-type(1){
+margin-top: 32px;
+margin-right:32px;
+}
+
+.value__title{
+  display: flex;
+  align-items: center;
+}
+
+.value:nth-child(1) .value__img--wrapper{
+  background-color: rgb(154, 230, 180);
+}
+
+.value:nth-child(2) .value__img--wrapper{
+  background-color:rgb(254, 178, 178);
+}
+
+.value__img{
+  width:20px;
+  height: 20px;
+}
+
+.value__name{
+  margin-left: 12px;
+  font-size:20px;
+  font-weight:bold;
+  color:rgb(36, 62, 99);
+}
+
+.value__para{
+  margin-top:16px;
+  line-height: 1.625;
+  color:rgb(113, 128, 150);
+}
+
+.value__img--wrapper{
+  border-radius:50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:36px;
+  height:36px;
+}
+
+.values__img{
+  width:50%;
+}
+
+
+
+
+
 
 /* TESTIMONIALS */
 
